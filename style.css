@@ -1,25 +1,56 @@
+
+/* *************************************************** */
+
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************************** */
+
+/* Elementos */
+
 body{
   /*   background: -webkit-linear-gradient(left, #0072ff, #00c6ff);*/  
-
 background-color: rgb(19, 19, 31);
 color: aliceblue;
-
-;   
+padding-top: .5rem;
 }
 
-.body{
-  padding-top: 100px;
+li{
+  padding-right: 10px;
+  padding-left: 10px;
 }
+
+article{
+  padding-top: 30px;
+}
+
+/* :hover */
+
+
+
+/* *************************************************** */
+
+/* Classes */
+
+.menu{
+  font-family: 'Inter', sans-serif;
+  color: aliceblue;
+}
+
 .nav-link{
- color: white;
-
- 
-}
-
-.a{
-  padding: 50px 50px;
-  
-}
+  color: white;
+ }
 
 .btn{
   border-width: medium;
@@ -30,48 +61,42 @@ color: aliceblue;
   padding-left: 30px;
   background-color:rgb(19, 19, 31);
   padding-top: 5px;
-  font-size: 15px;
-
-
-}
-
-li{
-  padding-right: 10px;
-  padding-left: 10px;
-}
-.btn:hover{
-  background-color: #8257E6;
-  border-color: rgb(19, 19, 31);  
-  transition: 3.5s ;   
-}
-.nav-item:hover .nav-link:hover{
-  color: aliceblue;
-  text-decoration: underline;
-  border-color: #8257E6;
-  font-size: +18px;
-  text-decoration-color:#8257E6;
-  text-decoration-style: wavy  ;
-  text-decoration-thickness: 20%;
-  transition: .9s ;
-
-
-
-
-  
-  
-}
-.logo:hover{
-  width: 79.8px; 
-  height: 25.2px;
-
-
-}
-
-article{
-  padding-top: 30px;
+  font-size: 85%;
+  font-family: 'Inter', sans-serif;
 }
 
 .hamburguer{
   color: aliceblue;
 }
+
+/* :hover */
+
+.logo:hover{
+  width: 79.8px; 
+  height: 25.2px;
+  transition: .3s
+}
+
+.nav-item:hover .nav-link:hover{
+  color: aliceblue;
+  text-decoration: underline;
+  border-color: #8257E6;
+  font-size: 107%;
+  text-decoration-color:#8257E6;
+  text-decoration-style: wavy  ;
+  text-decoration-thickness: 20%;
+  transition: .9s ;  
+}
+
+.btn:hover{
+  background-color: #8257E6;
+  border-color: rgb(19, 19, 31);  
+  transition: 3.5s ;  
+  font-size: 80%;
+}
+
+
+
+
+
 
