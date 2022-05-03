@@ -3,8 +3,13 @@
 
 /* Fontes */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
+@font-face {
+  font-family: Inter ;
+  src: url(/assets/fonts/inter.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
@@ -23,7 +28,8 @@ body{
   /*   background: -webkit-linear-gradient(left, #0072ff, #00c6ff);*/  
 background-color: rgb(19, 19, 31);
 color: aliceblue;
-padding-top: .5rem;
+padding-top: .8rem;
+
 }
 
 li{
@@ -34,6 +40,7 @@ li{
 article{
   padding-top: 30px;
 }
+
 
 /* :hover */
 
@@ -69,6 +76,13 @@ article{
   color: aliceblue;
 }
 
+.pos1{
+  background-color: black;
+  /*background-image: url(https://w.wallhaven.cc/full/49/wallhaven-49k3o8.jpg);
+  */
+}
+
+
 /* :hover */
 
 .logo:hover{
@@ -94,6 +108,7 @@ article{
   transition: 3.5s ;  
   font-size: 80%;
 }
+
 
 
 
