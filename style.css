@@ -7,8 +7,8 @@ color: aliceblue;
 ;   
 }
 
-.navbar{
-  padding-top: 25px;
+.body{
+  padding-top: 100px;
 }
 .nav-link{
  color: white;
@@ -60,7 +60,7 @@ li{
   
   
 }
-svg:hover{
+.logo:hover{
   width: 79.8px; 
   height: 25.2px;
 
@@ -69,5 +69,9 @@ svg:hover{
 
 article{
   padding-top: 30px;
+}
+
+.hamburguer{
+  color: aliceblue;
 }
 
